@@ -1,12 +1,9 @@
 module BoxCoxTransformations
 
-using Reexport
-using Optim: optimize, minimizer, UnivariateOptimizationResults
 using Distributions: Chisq, quantile
-import StatsAPI: confint
-
+using Optim: optimize, minimizer, UnivariateOptimizationResults
 using BoxCoxTrans
-
+import StatsAPI: confint
 
 include("struct.jl")
 

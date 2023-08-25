@@ -7,7 +7,6 @@ version = "0.1.0-DEV"
 BoxCoxTrans = "4c24c29e-1bf7-59e2-a6c7-e500a6482ce4"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 StatsAPI = "82ae8749-77ed-4fe6-ae5f-f523153014b0"
 
 [compat]
