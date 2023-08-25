@@ -1,0 +1,20 @@
+name = "BoxCoxTransformations"
+uuid = "ac1db599-f54a-410d-bd66-c7f9ff67ee30"
+authors = ["Oliver Lindemann"]
+version = "0.1.0-DEV"
+
+[deps]
+BoxCoxTrans = "4c24c29e-1bf7-59e2-a6c7-e500a6482ce4"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+StatsAPI = "82ae8749-77ed-4fe6-ae5f-f523153014b0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
