@@ -3,12 +3,15 @@ module BoxCoxTransformations
 using Distributions: Chisq, quantile
 using Optim: optimize, minimizer, UnivariateOptimizationResults
 using BoxCoxTrans
-import StatsAPI: confint
-
-include("struct.jl")
+using StatsAPI
+import StatsAPI: confint, loglikelihood, fit
 
 export BoxCoxTransformation,
     confint,
-    transform
+    transform,
+    loglikelihood
+
+include("boxcox.jl")
+
 
 end

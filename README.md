@@ -12,7 +12,7 @@ using Distributions
 
 x = rand(Gamma(2,2), 10000) .+ 1;
 
-bc = BoxCoxTransformation(x)
+bc = fit(BoxCoxTransformation, x)
 
 # lambda parameter
 bc.lambda
