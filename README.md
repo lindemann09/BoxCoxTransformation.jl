@@ -4,7 +4,7 @@
 
 
 Wraps currently [BoxCoxTrans.jl](https://github.com/tk3369/BoxCoxTrans.jl)
-and provides confidence intervals.
+and provides confidence intervals ([see doc](https://lindemann09.github.io/BoxCoxTransformations.jl/)).
 
 ```
 using BoxCoxTransformations
@@ -23,3 +23,5 @@ confint(bc)
 # transformed data
 transform(bc)
 ```
+
+See [BoxCoxTransformationsMakie.jl](https://github.com/lindemann09/BoxCoxTransformationsMakie.jl) for BoxCox-plots.
