@@ -1,0 +1,6 @@
+[deps]
+BoxCoxTrans = "4c24c29e-1bf7-59e2-a6c7-e500a6482ce4"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+StatsAPI = "82ae8749-77ed-4fe6-ae5f-f523153014b0"
