@@ -3,7 +3,7 @@
 [![Build Status](https://github.com/lindemann09/BoxCoxTransformations.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/lindemann09/BoxCoxTransformations.jl/actions/workflows/CI.yml?query=branch%3Amain)
 
 
-Wraps currently merely [BoxCoxTrans.jl](https://github.com/tk3369/BoxCoxTrans.jl)
+Wraps currently [BoxCoxTrans.jl](https://github.com/tk3369/BoxCoxTrans.jl)
 and provides confidence intervals.
 
 ```
